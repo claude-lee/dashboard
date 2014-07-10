@@ -11,3 +11,7 @@ http://howtonode.org/how-to-install-nodejs
 
 npm:
 https://github.com/npm/npm
+
+
+1. node.js is installed 
+2. npm is installed
