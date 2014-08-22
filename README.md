@@ -19,11 +19,11 @@ https://github.com/npm/npm
 
 2. npm is installed
 3. 
-
+______________________________________________________________________________________________________________
 
 echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
 
-. ~/.bashrc
+source ~/.bashrc
 
 mkdir ~/local
 
@@ -38,3 +38,15 @@ curl http://nodejs.org/dist/v0.10.9/node-v0.10.9-linux-x64.tar.gz | tar xz --str
 make install # ok, fine, this step probably takes more than 30 seconds...
 
 curl https://www.npmjs.org/install.sh | sh
+
+_____________________________________________________________________________________________________________________
+echo PATH=$HOME/local/bin:$PATH
+PATH=/home/eclaeis/local/bin:.../home/eclaeis/stuff/github/bin/npm:/home/eclaeis/stuff/github/node
+
+echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
+puts them all in the bashrc
+
+
+
+
+
