@@ -13,12 +13,17 @@ $ bash
 
 $ node
 
-If not run
+  If not, run
+  $ setenv PATH$PATH:/home/eclaeis/stuff/github/node
 
-$ setenv PATH$PATH:/home/eclaeis/stuff/github/node
+3. change to mtas_tr_dashboard
 
-1. Install from npm
+$ cd /home/eclaeis/stuff/github/dashboard/mtas_tr_dashboard
 
-$ npm install -g dashing-js
+4. start the server
 
-2. Generate a new
+$ dashing-js start
+
+5. Point your browser to the following address and have fun!
+
+$ http://localhost:3030/
