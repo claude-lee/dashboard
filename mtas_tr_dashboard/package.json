@@ -1,7 +1,7 @@
 {
   "name": "mtas_tr_dashboard",
   "description": "mtas_tr_dashboard",
-  "author": "<Put your name here>",
+  "author": "Claudia Eisbrenner",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
